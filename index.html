@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="node_modules/jquery.facedetection/dist/jquery.facedetection.min.js"></script>
+    <script src="demo.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  <body>
+<section class="splash">
+
+    <div class="container">
+      <div class="logo-wrapper">      
+	<img src="logo.png" class="bowl_logo">
+      </div>    
+    </div>
+    <div class="upload-wrapper">
+      <input type="file" class="upload">
+    </div>
+    <div class="container">
+      <div class="row">
+	<div class="medium-2">
+	  <h4>Width</h4>
+	  <input type="text" id="amount1"  />
+	  <div id="slider-xscale"></div>
+	</div>
+	<div class="medium-2">
+	  <h4>Height</h4>
+	  <input type="text" id="amount2"  />
+	  <div id="slider-yscale"></div>
+	</div>
+	<div class="medium-2">
+	  <h4>Left</h4>
+	  <input type="text" id="amount3"  />
+	  <div id="slider-xmarg"></div>
+	</div>
+	<div class="medium-2">
+	  <h4>Top</h4>
+	  <input type="text" id="amount4"  />
+	  <div id="slider-ymarg"></div>
+	</div>
+	<div class="medium-2">
+	  <h4>Face</h4>
+	  <input type="text" id="amount5"  />
+	  <div id="slider-faceoff"></div>
+	</div>
+      </div>
+    </div>
+    <div class="demo-img-container">
+      <div class="demo-img-wrapper">
+        <img id="demo-img" class="demo-img" src="faces.jpg">
+        <div class="spinner"></div>
+      </div>
+      <a class="do-img-detect" href="#">
+        <i class="demo-img-click wow rubberBand animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: rubberBand;">bowl it</i>
+      </a>
+      <div id="portraits" class="portraits"></div>
+    </div>
+
+</section>
+<section>
+    <div class="container">
+      <div class="row toppadding">
+	<div class="medium-5">	
+	  <h3>What is the Bowlcut Generator?</h3>
+	  <p>This weapon of mass hair destruction allows you to bowlcut thousands of individuals simultaneously. Remember: with great power comes great responsibility.</p>
+	</div>
+	<div class="medium-5">	
+	  <h3>Who is responsible for this?</h3>
+	  <p>Reports indicate that the notorious international criminal Sam Hyde is behind this fiendish plot. </p>
+    </div>
+</section>
+<section class="footer">
+  Copyright 2017
+</section>
+
+  </body>
+</html>
